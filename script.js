@@ -2,6 +2,7 @@
 const chatForm = document.getElementById("chatForm");
 const userInput = document.getElementById("userInput");
 const chatWindow = document.getElementById("chatWindow");
+const apiKey = OPENAI_API_KEY; // Make sure to name your secret OPENAI_API
 
 // Set initial message
 chatWindow.textContent = "👋 Hello! How can I help you today?";
