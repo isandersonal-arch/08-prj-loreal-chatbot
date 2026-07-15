@@ -1,3 +1,12 @@
+/* -- Branding colors -- */
+:root {
+  --primary-color: #000000;
+  --secondary-color: #666666;
+  --background-color: #fafafa;
+  --text-color: #333333;
+  --font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
 /* —— basic reset —— */
 * {
   box-sizing: border-box;
