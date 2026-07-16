@@ -46,7 +46,7 @@ body {
 
 .chat-window {
   height: 360px;
-  border: 1px solid #000;
+  border: 1px solid #FF003B;
   padding: 20px;
   font-size: 18px;
   line-height: 1.5;
@@ -84,13 +84,13 @@ body {
 }
 
 .chat-form input:focus {
-  outline: 2px solid #000;
+  outline: 2px solid #FF003B;
   outline-offset: 2px;
 }
 
 .chat-form button {
   font-size: 18px;
-  background: #000;
+  background: #FF003B;
   color: #fff;
   border: none;
   padding: 12px;
@@ -108,7 +108,7 @@ body {
 }
 
 .chat-form button:hover {
-  background: #666666;
+  background: #E3A535;
 }
 
 .chat-form button:focus {
