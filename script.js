@@ -25,7 +25,7 @@ async function fetchOpenAIResponse(userMessage) {
         {
           role: "system",
           content:
-            "You are a helpful assistant that helps customers navigate L'Oréal's products and provides tailored recommendations.",
+            "You are a helpful assistant that helps customers navigate L'Oréal's products and provides tailored recommendations. If a user's query is unrelated to L'Oréal products, politely inform them that you can only assist with L'Oréal-related inquiries.",
         },
         { role: "user", content: userMessage },
       ],
@@ -50,6 +50,8 @@ async function handleUserInput(userMessage) {
 
 chatWindow.innerHTML =
   '<div class="msg ai">👋 Hello! How can I help you today?</div>';
+
+const workerUrl = "https://loreal-chatbot-worker.ih184.workers.dev/"; // Replace with your Cloudflare Worker URL
 
 chatForm.addEventListener("submit", async (event) => {
   event.preventDefault();

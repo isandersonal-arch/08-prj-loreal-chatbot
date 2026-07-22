@@ -38,6 +38,19 @@ body {
   padding-top: 50px;
 }
 
+.site-header img {
+  display: block;
+  margin: 0 auto 12px;
+  width: 180px;
+  max-width: 80%;
+  padding: 16px;
+  border-radius: 20px;
+  background: white;
+  box-shadow: 0 0 24px rgba(255, 255, 255, 0.45),
+    0 0 40px rgba(255, 0, 59, 0.35);
+  backdrop-filter: blur(4px);
+}
+
 .site-title {
   font-size: 22px;
   font-weight: 500;
